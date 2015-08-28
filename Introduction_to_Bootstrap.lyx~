@@ -16,6 +16,9 @@
 \captionsetup{labelsep=period}
 \end_preamble
 \use_default_options true
+\begin_modules
+enumitem
+\end_modules
 \maintain_unincluded_children false
 \language english
 \language_package default
@@ -118,7 +121,7 @@ LatexCommand tableofcontents
 \end_layout
 
 \begin_layout Section
-GETTING STARTED WITH BOOTSTRAP
+Getting Started with Bootstrap
 \end_layout
 
 \begin_layout Standard
@@ -129,8 +132,481 @@ During our first module we'll cover the basics of Bootstrap and the grid
  We'll also explain how the grid system works to layout your pages.
 \end_layout
 
+\begin_layout Subsection
+Introduction to Bootstrap
+\end_layout
+
+\begin_layout Subsection
+Page Layouts
+\end_layout
+
+\begin_layout Subsubsection
+Bootstrap Classes
+\end_layout
+
+\begin_layout Standard
+Most everything that you want to add onto a page by using Bootstrap is done
+ by adding classes and HTML to the page.
+ There are numerous Bootstrap classes.
+ Fortunately, you don't have to know or memorize all of them.
+\end_layout
+
+\begin_layout Standard
+Many of the classes are related to one another, so learning the basic concepts
+ of what makes up certain classes is all that's needed.
+ There are many that are pretty straight forward, such as left and right,
+ which will do exactly what you expect.
+ And there are still others which you may never find yourself using, which
+ is just fine.
+ You will notice that the goal of this course is not to teach you every
+ Bootstrap class that's available, but rather how to use Bootstrap in your
+ applications.
+\end_layout
+
+\begin_layout Standard
+As has already been stated, Bootstrap uses CSS.
+ This means you are free to customize all classes as needed by using standard
+ CSS and cascading rules.
+\end_layout
+
+\begin_layout Subsubsection
+Common Bootstrap Starting Classes
+\end_layout
+
+\begin_layout Standard
+When putting together the layout for a page, there are a few classes that
+ you typically use to start.
+ The first two help define how much space the content will take on the overall
+ page, while the last will allow you to highlight content, such as the site's
+ title and introductory information.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="2">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="left" valignment="middle" width="15col%">
+<column alignment="left" valignment="middle" width="70col%">
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Classes
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Information
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+container
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+The container class places content inside of a horizontal container.
+ The size of the container will vary based on screensize.
+ The container will stay the same width for that particular screensize.
+ This helps developers size content appropriately for different devices.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+container-fluid
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+The container-fluid class places content inside of a container that will
+ always be the width of the screen.
+ This is helpful for scenarios where the content to be displayed must use
+ the entire browser window.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+jumbotron
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+The jumbotron class is a common class for displaying titles for different
+ sections of a website, or the landing page.
+ The jumbotron typically has a highlighted background and an increased fontsize.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Lab
+\end_layout
+
+\begin_layout Subsubsection
+Part 1 Notes, Steps and Scenario
+\end_layout
+
+\begin_layout Subsubsection*
+Lab Notes
+\end_layout
+
+\begin_layout Standard
+Labs are designed to both be a challenge as well as real-world.
+ As a result, full step-by-step instructions are not provided.
+ However, all of the needed information, class names, and resources to complete
+ the labs have been provided.
+ This content is either in the videos provded, or in the resources section.
+\end_layout
+
+\begin_layout Standard
+If you do get stuck you are free to discuss the lab with other students.
+\end_layout
+
+\begin_layout Standard
+Keep in mind that future labs will continue to build on this one.
+ Successful completion of the labs will require completing the labs from
+ the module prior.
+\end_layout
+
+\begin_layout Subsubsection*
+Lab Steps
+\end_layout
+
+\begin_layout Standard
+Each lab will provide various resources.
+ As you attempt the lab, try to solve the lab by using the earliest step
+ possible.
+ Here are the resources provided for this lab:
+\end_layout
+
+\begin_layout Enumerate
+Wireframe.
+ 
+\end_layout
+
+\begin_layout Standard
+In the real world, a wireframe is generated to represent the design the
+ business owner desires.
+ Being able to translate a wireframe into a final product is a key skill
+ all web developers need to have.
+ Remember, a wireframe does not need to be matched exactly; a wireframe
+ is intended to be a rough sketch of the desired result.
+ 
+\end_layout
+
+\begin_layout Enumerate-Resume
+Screenshot 
+\end_layout
+
+\begin_layout Standard
+If you're just getting started, or if the wireframe isn't clear about the
+ target design, you can look at the screenshot.
+ This is a sample of what the final result should look like.
+ 
+\end_layout
+
+\begin_layout Enumerate-Resume
+Additional guidance 
+\end_layout
+
+\begin_layout Standard
+The additional guidance is provided to add clarity and help add context
+ if needed.
+ 
+\end_layout
+
+\begin_layout Subsubsection*
+Lab Scenario
+\end_layout
+
+\begin_layout Standard
+You have been tasked with creating a page to display the details of a record
+ album.
+ You will build this page up over the course of the next several labs.
+ The starting page only needs to target medium and large devices; support
+ for smaller devices will be added later.
+\end_layout
+
+\begin_layout Standard
+These are the necessary components:
+\end_layout
+
+\begin_layout Enumerate
+A banner to display the name of the music store, Music Store 
+\end_layout
+
+\begin_layout Enumerate
+Album information 
+\end_layout
+
+\begin_layout Itemize
+An image on the left side to represent the cover art.
+ The image is provided here.
+ 
+\end_layout
+
+\begin_layout Itemize
+The basic information on the album on the right side.
+ 
+\end_layout
+
+\begin_layout Standard
+Finally, you have been requested to implement a new theme that is different
+ from the default.
+\end_layout
+
+\begin_layout Standard
+You are free to choose whatever theme you like, and are free to determine
+ the sizing that you believe will work best for the page.
+\end_layout
+
+\begin_layout Subsubsection
+Part 2 Wireframe
+\end_layout
+
+\begin_layout Standard
+Use the wireframe to layout your page (fig 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Use-the-wireframe"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename images-for-lyx/Lab_One_-_Wireframe.png
+	lyxscale 40
+	width 70col%
+	rotateOrigin center
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Use-the-wireframe"
+
+\end_inset
+
+Use the wireframe to layout your page.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+Part 3 Screenshot
+\end_layout
+
+\begin_layout Standard
+This is what the solution should look like (fig 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:The-coloring-will"
+
+\end_inset
+
+).
+ The coloring will be different based on the theme you select.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename images-for-lyx/Lab_One_-_Screenshot.png
+	lyxscale 60
+	width 70col%
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:The-coloring-will"
+
+\end_inset
+
+The coloring will be different based on the theme you select.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+Part 4 Additional Guidance
+\end_layout
+
+\begin_layout Enumerate
+Download Bootstrap components from www.getbootstrap.com.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Download the album art.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Create a new project in Visual Studio.
+ Use the empty web template.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Add a folder named "Styles".
+ Add the Bootstrap css files to this folder.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Add a folder named "Scripts".
+ Add the JavaScript files to this folder.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Add a new HTML page named AlbumDetails.html.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Add references to the Bootstrap min CSS file to AlbumDetails.html.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Add the necessary HTML to implement the layout.
+ Use the phrases Music Store, Album Title, and Artist as placeholders as
+ shown in the wireframe.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Obtain a new theme from bootswatch.com.
+ Implement the new theme.
+\end_layout
+
 \begin_layout Section
-PAGE DESIGN AND DATA DISPLAY
+Page Design and Data Display
 \end_layout
 
 \begin_layout Standard
@@ -143,7 +619,7 @@ Bootstrap offers several features to ensure your page is designed optimally
 \end_layout
 
 \begin_layout Section
-FORMS AND USER INTERACTION
+Forms and User Interaction
 \end_layout
 
 \begin_layout Standard
