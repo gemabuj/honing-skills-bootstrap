@@ -118,7 +118,7 @@ LatexCommand tableofcontents
 \end_layout
 
 \begin_layout Section
-Getting Started with Bootstrap
+GETTING STARTED WITH BOOTSTRAP
 \end_layout
 
 \begin_layout Standard
@@ -130,7 +130,7 @@ During our first module we'll cover the basics of Bootstrap and the grid
 \end_layout
 
 \begin_layout Section
-Page Design and Data Display
+PAGE DESIGN AND DATA DISPLAY
 \end_layout
 
 \begin_layout Standard
@@ -143,7 +143,7 @@ Bootstrap offers several features to ensure your page is designed optimally
 \end_layout
 
 \begin_layout Section
-Forms and User Interaction
+FORMS AND USER INTERACTION
 \end_layout
 
 \begin_layout Standard
